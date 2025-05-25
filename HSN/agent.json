@@ -1,0 +1,6 @@
+{
+  "name": "HSNValidationAgent",
+  "intents": ["validate_hsn_code"],
+  "entities": ["hsn_code"],
+  "fulfillment": ["hsn_validator"]
+}

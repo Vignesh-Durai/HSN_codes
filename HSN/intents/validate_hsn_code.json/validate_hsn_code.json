@@ -1,0 +1,19 @@
+{
+  "name": "validate_hsn_code",
+  "training_phrases": [
+    "Check HSN {hsn_code}",
+    "Validate code {hsn_code}",
+    "Is {hsn_code} a valid HSN code?",
+    "Check these HSN codes {hsn_code}"
+  ],
+  "parameters": [
+    {
+      "name": "hsn_code",
+      "entity": "@hsn_code",
+      "isList": true
+    }
+  ],
+  "fulfillment": {
+    "name": "hsn_validator"
+  }
+}
